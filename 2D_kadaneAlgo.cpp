@@ -67,6 +67,7 @@ int main() {
     int ans = maxi;
 
     // Add back the absolute value of negative elements in the max submatrix
+    //this is not the part of algorithm this is according to the question.
     for(int i = maxtop ; i <= maxdown ; ++i){
         for(int j = maxleft ; j <= maxright ; ++j){
             if(a[i][j] < 0)
